@@ -1,7 +1,8 @@
-const filesystem = require('./node_modules/graceful-fs/graceful-fs')
+
+// Imports the graceful-fs, inquirer, Circle, Square, and Triangle modules.const filesystem = require('./node_modules/graceful-fs/graceful-fs')
 const inquirer = require("inquirer");
 const {Circle, Square, Triangle} = require("./shapes.js");
-// Imports the graceful-fs, inquirer, Circle, Square, and Triangle modules.
+
 // Defines a Svg class that has a constructor with three methods for rendering and setting the text and shape elements in the SVG string.
 
 class Svg{
@@ -24,12 +25,12 @@ class Svg{
 }
 
 // Defines array of 'questions' using the 'inquirer' library with the following questions.
-// Each question is an object that specifies the properties of TEXT, TEXT COLOR, SHAPE COLOR, and Pixel Image.
-const questions = [
+
+const questions = [ // array of questions
     {
-        type: "input",
-        name: "text",
-        message: "TEXT: Enter up to (3) Characters:",
+        type: "input", // type of input
+        name: "text", // name of the input 
+        message: "TEXT: Enter up to (3) Characters:", // message to display
     },
     {
         type: "input",
