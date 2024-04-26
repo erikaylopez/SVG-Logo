@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("Congratulations, you have generated a logo.svg!");
+        console.log("Congratulations, svg created!");
     });
 }
 
@@ -75,7 +75,7 @@ async function init() {
 		user_text = answers.text;
 	} else {
 		// 0 or 4+ chars, invalid entry
-		console.log("Invalid user text field detected! Please enter 1-3 charecters only.");
+		console.log("Invalid entry! Please enter 1-3 charecters only.");
         return;
 	}
 	console.log("User text: [" + user_text + "]");
@@ -116,7 +116,7 @@ async function init() {
 	
 	//Print shape to log
 	console.log("Displaying shape:\n\n" + svgString);
-	//document.getElementById("svg_image").innerHTML = svgString;
+	
 
 	console.log("Shape generation complete!");
 	console.log("Writing shape to file...");
