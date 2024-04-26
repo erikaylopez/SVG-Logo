@@ -15,9 +15,11 @@ As a freelance web developer- I have created a Node.js command-line application 
 
 # Installation
 To install the project dependencies, follow these steps:
-Node.js
-Jest 
-Inquirer.js
+Fork and clone the repository Professional-README-Generator.
+- [Fork and clone the repository SVG Logo](https://github.com/erikaylopez/SVG-Logo)
+- Node.js
+- Jest 
+- Inquirer.js
 
 # Usage
 To use the SVG-Logo Maker, follow these steps:
@@ -34,8 +36,8 @@ jest testing
 Licensed under the MIT license. Copyright @ MIT. All rights reserved.
 
 # Contact
-Github: erikaylopez
-Email: eylopez8686@gmail.com
+- [Github](https://github.com/erikaylopez)
+- [Email](mailto:eylopez8686@gmail.com)
 
 # Screenshot 
 
