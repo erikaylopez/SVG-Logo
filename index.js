@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("Congratulations, you have Generated a logo.svg!");
+        console.log("Congratulations, you have generated a logo.svg!");
     });
 }
 
@@ -75,7 +75,7 @@ async function init() {
 		user_text = answers.text;
 	} else {
 		// 0 or 4+ chars, invalid entry
-		console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
+		console.log("Invalid user text field detected! Please enter 1-3 charecters only.");
         return;
 	}
 	console.log("User text: [" + user_text + "]");
